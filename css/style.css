@@ -70,7 +70,7 @@ button {
 .background {
   transition: all;
   will-change: all;
-  animation-duration: .2s;
+  animation-duration: 1.2s;
   transition-timing-function: ease-in-out;
   animation-fill-mode: both;
   animation-name: fadeIn;
@@ -80,7 +80,7 @@ button {
   display: flex;
   transition: all;
   will-change: all;
-  animation-duration: .2s;
+  animation-duration: 1.2s;
   transition-timing-function: ease-in-out;
   animation-fill-mode: both;
   animation-name: fadeIn;
