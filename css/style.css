@@ -616,7 +616,8 @@ h2.contact {
 }
 
 /* Animation */
-.background.faded-out,.background.faded-out.contact {
+.background.faded-out,
+.background.faded-out.contact {
   animation-duration: 2.5s;
   transition-timing-function: ease-in-out;
   animation-fill-mode: both;

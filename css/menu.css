@@ -13,7 +13,6 @@
   background-size: 100%;
 }
 
-
 /* change ham image to close */
 .showClose {
   background-image: url("https://ljc-dev.github.io/testing0/ham-close.svg");
@@ -24,7 +23,7 @@
   top: 0;
   left: 0;
   background: navajowhite;
-  background: rgba(207,196,185 , 0.85);
+  background: rgba(207, 196, 185, 0.85);
   width: 100vw;
   height: 100vh;
   overflow: hidden;
@@ -34,7 +33,6 @@
   /* transition adds a little animation when sliding in and out the menu */
   transition: transform 0.2s ease;
 }
-
 
 * {
   padding: 0;
@@ -68,10 +66,11 @@ button {
   padding-bottom: 10px;
   border-bottom: 2px solid black;
   text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.2rem;
 }
 
-.navbar ul li a:hover, .navbar ul li a:focus {
+.navbar ul li a:hover,
+.navbar ul li a:focus {
   border-bottom: 2px solid white;
 }

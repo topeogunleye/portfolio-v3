@@ -1,11 +1,11 @@
 // Clear background;
 function clearBackground() {
-  document.querySelector('.background').innerHTML = ``;
+  document.querySelector(".background").innerHTML = ``;
 }
 
 // Initial About ME
 // Create Background div
-let background = document.createElement("div")
+let background = document.createElement("div");
 
 const footer = document.querySelector(".footer");
 
@@ -19,19 +19,17 @@ background.classList.add("background");
 // remove footer classes
 footer.classList.remove("reduce-margin");
 
-let backgroundRemove = document.querySelector('.background');
+let backgroundRemove = document.querySelector(".background");
 
 // Clear background
-clearBackground(backgroundRemove)
+clearBackground(backgroundRemove);
 function clearBackground(background) {
   background.remove();
 }
 
 body.insertBefore(background, footer);
 
-
 if (background.innerHTML === "") {
-
   background.innerHTML = `
          <div class="about-me">
 <div class="background-container">
@@ -116,52 +114,47 @@ if (background.innerHTML === "") {
   </div>
 </div>
 </div>
-    `
-
+    `;
 
   // add two css classes
-  background.classList.add("background", "faded-out")
-
+  background.classList.add("background", "faded-out");
 
   // and remove 'faded-out' in order to fade-in our element
   requestAnimationFrame(() => {
-    background.classList.remove("faded-out")
-  })
+    background.classList.remove("faded-out");
+  });
 }
 
 // About Me
 // Event Listener for About Me
 const abouts = document.querySelectorAll("#about");
-abouts.forEach(about => {
+abouts.forEach((about) => {
   about.addEventListener("click", () => {
-
-// Create Background div
-    let background = document.createElement("div")
+    // Create Background div
+    let background = document.createElement("div");
 
     const footer = document.querySelector(".footer");
 
     const body = document.querySelector("body");
-// add it to the DOM
+    // add it to the DOM
     document.body.insertBefore(background, footer);
 
-// add background classes
+    // add background classes
     background.classList.add("background");
-// remove footer classes
+    // remove footer classes
     footer.classList.remove("reduce-margin");
 
-    let backgroundRemove = document.querySelector('.background');
+    let backgroundRemove = document.querySelector(".background");
 
     // Clear background
-    clearBackground(backgroundRemove)
+    clearBackground(backgroundRemove);
     function clearBackground(background) {
       background.remove();
     }
 
     body.insertBefore(background, footer);
 
-
     if (background.innerHTML === "") {
-
       background.innerHTML = `
                  <div class="about-me">
         <div class="background-container">
@@ -246,60 +239,53 @@ abouts.forEach(about => {
           </div>
         </div>
       </div>
-            `
-
+            `;
 
       // add two css classes
-      background.classList.add("background", "faded-out")
-
+      background.classList.add("background", "faded-out");
 
       // and remove 'faded-out' in order to fade-in our element
       requestAnimationFrame(() => {
-        background.classList.remove("faded-out")
-      })
+        background.classList.remove("faded-out");
+      });
     }
-  } )
-})
-
-
+  });
+});
 
 // Projects
 // Event listeners for Projects
 const projects = document.querySelectorAll(".projects");
 
-projects.forEach(project => {
+projects.forEach((project) => {
   project.addEventListener("click", () => {
-
-// Create Background div
-    let background = document.createElement("div")
+    // Create Background div
+    let background = document.createElement("div");
 
     const footer = document.querySelector(".footer");
 
     const body = document.querySelector("body");
-// add it to the DOM
+    // add it to the DOM
     document.body.insertBefore(background, footer);
 
-// add background classes
+    // add background classes
     background.classList.add("background");
 
-// add/remove footer classes
+    // add/remove footer classes
     footer.classList.add("reduce-margin");
     footer.classList.remove("reduce-width");
     footer.classList.remove("reduce-width-resume");
 
-    let backgroundRemove = document.querySelector('.background');
+    let backgroundRemove = document.querySelector(".background");
 
     // Clear background
-    clearBackground(backgroundRemove)
+    clearBackground(backgroundRemove);
     function clearBackground(background) {
       background.remove();
     }
 
     body.insertBefore(background, footer);
 
-
     if (background.innerHTML === "") {
-
       background.innerHTML = `
                <h2 class="projects"><div class="tinybox-resume"></div>Projects</h2>
 
@@ -363,58 +349,53 @@ projects.forEach(project => {
       </div>
     </div>
   </div>
-          `
-
+          `;
 
       // add two css classes
-      background.classList.add("background", "faded-out")
-
+      background.classList.add("background", "faded-out");
 
       // and remove 'faded-out' in order to fade-in our element
       requestAnimationFrame(() => {
-        background.classList.remove("faded-out")
-      })
+        background.classList.remove("faded-out");
+      });
     }
-  } )
-})
+  });
+});
 
 // Resume
 // Event listener for Resume
 const resumes = document.querySelectorAll(".resume");
 
-resumes.forEach(resume => {
+resumes.forEach((resume) => {
   resume.addEventListener("click", () => {
-
-// Create Background div
-    let background = document.createElement("div")
+    // Create Background div
+    let background = document.createElement("div");
 
     const footer = document.querySelector(".footer");
 
     const body = document.querySelector("body");
-// add it to the DOM
+    // add it to the DOM
     document.body.insertBefore(background, footer);
 
-// add background classes
+    // add background classes
     background.classList.add("background");
 
-// add/remove footer classes
+    // add/remove footer classes
     footer.classList.add("reduce-margin");
     footer.classList.add("reduce-width-resume");
     footer.classList.remove("reduce-width");
 
-    let backgroundRemove = document.querySelector('.background');
+    let backgroundRemove = document.querySelector(".background");
 
     // Clear background
-    clearBackground(backgroundRemove)
+    clearBackground(backgroundRemove);
     function clearBackground(background) {
       background.remove();
     }
 
     body.insertBefore(background, footer);
 
-
     if (background.innerHTML === "") {
-
       background.innerHTML = `
 <h1><div class="tinybox-resume"></div>Resume</h1>
     <div class="header-container">
@@ -592,58 +573,52 @@ resumes.forEach(resume => {
       </div>
     </div>
     </div>
-          `
-
+          `;
 
       // add two css classes
-      background.classList.add("background", "faded-out")
-
+      background.classList.add("background", "faded-out");
 
       // and remove 'faded-out' in order to fade-in our element
       requestAnimationFrame(() => {
-        background.classList.remove("faded-out")
-      })
+        background.classList.remove("faded-out");
+      });
     }
-  } )
-})
-
+  });
+});
 
 // Contacts
 // Event Listeners for contacts
 const contacts = document.querySelectorAll("#contact");
-contacts.forEach(contact => {
+contacts.forEach((contact) => {
   contact.addEventListener("click", () => {
-
-// Create Background div
-    let background = document.createElement("div")
+    // Create Background div
+    let background = document.createElement("div");
 
     const footer = document.querySelector(".footer");
 
     const body = document.querySelector("body");
-// add it to the DOM
+    // add it to the DOM
     document.body.insertBefore(background, footer);
 
-// add background classes
+    // add background classes
     background.classList.add("background");
 
-// add/remove footer classes
+    // add/remove footer classes
     footer.classList.add("reduce-margin");
     footer.classList.remove("reduce-width");
     footer.classList.remove("reduce-width-resume");
 
-    let backgroundRemove = document.querySelector('.background');
+    let backgroundRemove = document.querySelector(".background");
 
     // Clear background
-    clearBackground(backgroundRemove)
+    clearBackground(backgroundRemove);
     function clearBackground(background) {
       background.remove();
     }
 
     body.insertBefore(background, footer);
 
-
     if (background.innerHTML === "") {
-
       background.innerHTML = `
                                  <h2 class="contact">
       <div class="tinybox-resume"></div>
@@ -674,41 +649,37 @@ contacts.forEach(contact => {
         </li>
         </ul>
         </form>
-            `
-
+            `;
 
       // add two css classes
-      background.classList.add("background", "faded-out")
-
+      background.classList.add("background", "faded-out");
 
       // and remove 'faded-out' in order to fade-in our element
       requestAnimationFrame(() => {
-        background.classList.remove("faded-out")
-      })
+        background.classList.remove("faded-out");
+      });
     }
-  } )
-})
+  });
+});
 
-var navbar = document.querySelector(".navbar")
-var ham = document.querySelector(".ham")
+var navbar = document.querySelector(".navbar");
+var ham = document.querySelector(".ham");
 
 // toggles hamburger menu in and out when clicking on the hamburger
-function toggleHamburger(){
-  navbar.classList.toggle("showNav")
-  ham.classList.toggle("showClose")
+function toggleHamburger() {
+  navbar.classList.toggle("showNav");
+  ham.classList.toggle("showClose");
 }
 
-ham.addEventListener("click", toggleHamburger)
+ham.addEventListener("click", toggleHamburger);
 
 // toggle when clicking on links
 
 // METHOD 1
-var menuLinks = document.querySelectorAll(".menuLink")
-menuLinks.forEach(
-    function(menuLink) {
-      menuLink.addEventListener("click", toggleHamburger)
-    }
-)
+var menuLinks = document.querySelectorAll(".menuLink");
+menuLinks.forEach(function (menuLink) {
+  menuLink.addEventListener("click", toggleHamburger);
+});
 
 // METHOD 2
 
@@ -729,5 +700,3 @@ function checkToggle(e){
 navbar.addEventListener("click", checkToggle)
 
 */
-
-
