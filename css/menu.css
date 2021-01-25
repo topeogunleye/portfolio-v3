@@ -49,6 +49,9 @@
 }
 
 /* basic nav styling below */
+button {
+  display: initial;
+}
 
 .navbar ul {
   width: 100%;

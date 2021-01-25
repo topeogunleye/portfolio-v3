@@ -28,6 +28,10 @@ body {
   font-size: 23px;
 }
 
+button {
+  display: none;
+}
+
 #navbar ul {
   display: flex;
   align-items: center;
