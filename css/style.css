@@ -20,6 +20,7 @@ body {
   background: #fff;
   z-index: 2;
   padding: 2rem;
+  align-items: center;
 }
 
 .left-sidebar .name {
@@ -39,6 +40,7 @@ body {
   margin: 0 0.25rem;
   justify-content: space-between;
   transition: all 0.4s ease;
+  font-size: 90%;
 }
 /* 
 #navbar ul li a:active {
