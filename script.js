@@ -130,6 +130,7 @@ if (background.innerHTML === "") {
 const abouts = document.querySelectorAll("#about");
 abouts.forEach((about) => {
   about.addEventListener("click", () => {
+
     // Create Background div
     let background = document.createElement("div");
 
@@ -368,7 +369,6 @@ const resumes = document.querySelectorAll(".resume");
 
 resumes.forEach((resume) => {
   resume.addEventListener("click", () => {
-    console.log(resume)
     // Create Background div
     let background = document.createElement("div");
 
@@ -401,7 +401,7 @@ resumes.forEach((resume) => {
 <h1><div class="tinybox-resume"></div>Resume</h1>
     <div class="header-container">
       <h2>Experience</h2>
-      <a href="" class="btn btn-blue download">DOWNLOAD CV</a>
+      <a href="./cv/mycv.pdf" class="btn btn-blue download">DOWNLOAD CV</a>
     </div>
 
     <!-- Experience Section -->
