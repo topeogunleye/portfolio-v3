@@ -83,6 +83,9 @@ body {
 .profile-image-btn {
   display: flex;
   margin-top: 75px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .profile-image p {
@@ -107,16 +110,15 @@ body {
   height: 800px;
 }
 
-.bg-right-container .btn.btn-blue.resume1,
-.bg-right-container .btn.btn-white.projects1 {
-  display: none;
-}
-
 .background-right .header {
   font-size: 40px;
   font-weight: 700;
   margin-top: 168px;
   padding-bottom: 0;
+}
+
+.bg-right-btn {
+  display: none;
 }
 
 .dev-description .first-p {
@@ -140,6 +142,7 @@ body {
   transform: translateY(-60px) translateX(12px);
   display: inline-block;
 }
+
 /* transform: translateY(0rem) translateX(0); */
 
 /* Footer Section */

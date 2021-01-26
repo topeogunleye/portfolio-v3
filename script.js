@@ -45,13 +45,12 @@ if (background.innerHTML === "") {
     <p>Web Developer</p>
 
     <div class="profile-image-btn">
-      <a href="#resume" class="resume btn btn-blue" id="resume"
+      <a href="#resume" class="btn btn-blue resume"
         >RESUME</a
       >
       <a
         href="#projects"
-        class="projects btn btn-white"
-        id="projects"
+        class="btn btn-white projects"
         >PROJECTS</a
       >
     </div>
@@ -93,9 +92,10 @@ if (background.innerHTML === "") {
   <div class="background-right">
     <div class="bg-right-container">
       <p class="header">Hello</p>
-
-      <a href="#resume" class="btn btn-blue resume resume1">RESUME</a>
-      <a href="#projects" class="btn btn-white projects projects1">PROJECTS</a>
+      <div class="bg-right-btn">
+      <a href="#resume" class="btn btn-blue resume">RESUME</a>
+      <a href="#projects" class="btn btn-white projects">PROJECTS</a>
+      </div>
       <div class="dev-description">
         <p class="first-p">
           I'm a Frontend developer with 2+ years experience in building
@@ -130,7 +130,6 @@ if (background.innerHTML === "") {
 const abouts = document.querySelectorAll("#about");
 abouts.forEach((about) => {
   about.addEventListener("click", () => {
-
     // Create Background div
     let background = document.createElement("div");
 
@@ -171,13 +170,13 @@ abouts.forEach((about) => {
             <p>Web Developer</p>
   
             <div class="profile-image-btn">
-              <a href="#resume" class="resume btn btn-blue" id="resume1"
+              <a href="#resume" class="btn btn-blue resume" id="resume"
                 >RESUME</a
               >
               <a
                 href="#projects"
-                class="projects btn btn-white"
-                id="projects1"
+                class="btn btn-white projects"
+                id="projects"
                 >PROJECTS</a
               >
             </div>
@@ -219,9 +218,10 @@ abouts.forEach((about) => {
           <div class="background-right">
             <div class="bg-right-container">
               <p class="header">Hello</p>
-    
-              <a href="" class="btn btn-blue resume resume1">RESUME</a>
-              <a href="" class="btn btn-white projects projects1">PROJECTS</a>
+              <div class="bg-right-btn">
+              <a href="#resume" class="btn btn-blue resume">RESUME</a>
+              <a href="#projects" class="btn btn-white projects">PROJECTS</a>
+             </div>
               <div class="dev-description">
                 <p class="first-p">
                   I'm a Frontend developer with 2+ years experience in building
@@ -369,6 +369,7 @@ const resumes = document.querySelectorAll(".resume");
 
 resumes.forEach((resume) => {
   resume.addEventListener("click", () => {
+    console.log(resume)
     // Create Background div
     let background = document.createElement("div");
 
