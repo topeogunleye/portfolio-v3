@@ -402,7 +402,7 @@ resumes.forEach((resume) => {
 <h1><div class="tinybox-resume"></div>Resume</h1>
     <div class="header-container">
       <h2>Experience</h2>
-      <a href="./cv/mycv.pdf" class="btn btn-blue download">DOWNLOAD CV</a>
+      <a href="./cv/mycv.pdf" class="btn btn-blue download" target="_blank">DOWNLOAD CV</a>
     </div>
 
     <!-- Experience Section -->
