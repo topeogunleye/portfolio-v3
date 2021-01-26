@@ -221,7 +221,7 @@ abouts.forEach((about) => {
               <p class="header">Hello</p>
     
               <a href="" class="btn btn-blue resume resume1">RESUME</a>
-              <a href="" class="btn btn-white projects project1">PROJECTS</a>
+              <a href="" class="btn btn-white projects projects1">PROJECTS</a>
               <div class="dev-description">
                 <p class="first-p">
                   I'm a Frontend developer with 2+ years experience in building
