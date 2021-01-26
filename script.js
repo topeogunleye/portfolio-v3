@@ -94,8 +94,8 @@ if (background.innerHTML === "") {
     <div class="bg-right-container">
       <p class="header">Hello</p>
 
-      <a href="#resume" class="btn btn-blue resume">RESUME</a>
-      <a href="#projects" class="btn btn-white projects">PROJECTS</a>
+      <a href="#resume" class="btn btn-blue resume resume1">RESUME</a>
+      <a href="#projects" class="btn btn-white projects projects1">PROJECTS</a>
       <div class="dev-description">
         <p class="first-p">
           I'm a Frontend developer with 2+ years experience in building
@@ -220,8 +220,8 @@ abouts.forEach((about) => {
             <div class="bg-right-container">
               <p class="header">Hello</p>
     
-              <a href="" class="btn btn-blue resume">RESUME</a>
-              <a href="" class="btn btn-white projects">PROJECTS</a>
+              <a href="" class="btn btn-blue resume resume1">RESUME</a>
+              <a href="" class="btn btn-white projects project1">PROJECTS</a>
               <div class="dev-description">
                 <p class="first-p">
                   I'm a Frontend developer with 2+ years experience in building
