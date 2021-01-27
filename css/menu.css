@@ -9,6 +9,7 @@
   border: none;
   cursor: pointer;
   background-color: transparent;
+  background-color: var(--overlay-color);
   background-image: url("https://ljc-dev.github.io/testing0/ham.svg");
   background-size: 100%;
 }
