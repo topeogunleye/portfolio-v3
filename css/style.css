@@ -580,6 +580,7 @@ h2.contact {
   padding-bottom: 0;
 }
 .form-style-9 ul li .field-style {
+  font-size: 120%;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -604,12 +605,15 @@ h2.contact {
 }
 .form-style-9 ul li .field-full {
   width: 100%;
+  font-size: 120%;
 }
 .form-style-9 ul li input.align-left {
   float: left;
+  font-size: 120%;
 }
 .form-style-9 ul li input.align-right {
   float: right;
+  font-size: 120%;
 }
 .form-style-9 ul li textarea {
   width: 100%;
