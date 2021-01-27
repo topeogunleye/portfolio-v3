@@ -1,1 +1,704 @@
-function clearBackground(){document.querySelector(".background").innerHTML=""}let background=document.createElement("div");const footer=document.querySelector(".footer"),body=document.querySelector("body");document.body.insertBefore(background,footer),background.classList.add("background"),footer.classList.remove("reduce-margin");let backgroundRemove=document.querySelector(".background");function clearBackground(n){n.remove()}clearBackground(backgroundRemove),body.insertBefore(background,footer),""===background.innerHTML&&(background.innerHTML='\n         <div class="about-me">\n<div class="background-container">\n  <div class="background-left">\n    <div class="profile-container">\n    <div class="profile-image">\n    <img src="img/Profile.jpg" alt="profile image" />\n\n    <p class="myname"><span>Temitope</span><span>Ogunleye</span></p>\n\n    <div class="horizontal-line"></div>\n\n    <p>Web Developer</p>\n\n    <div class="profile-image-btn">\n      <a href="#resume" class="btn btn-blue resume"\n        >RESUME</a\n      >\n      <a\n        href="#projects"\n        class="btn btn-white projects"\n        >PROJECTS</a\n      >\n    </div>\n        <div class="social-media">\n                  <a\n              href="https://github.com/topeogunleye\n                "\n              class="fa fa-github"\n              target="_blank"\n            ></a>\n            <a\n              href="https://web.facebook.com/topeogunleye21\n            "\n              class="fa fa-facebook"\n              target="_blank"\n            ></a>\n            <a\n              href="https://twitter.com/temi_web\n            "\n              class="fa fa-twitter"\n              target="_blank"\n            ></a>\n            <a\n              href="https://www.linkedin.com/in/ogunleye\n            "\n              class="fa fa-linkedin"\n              target="_blank"\n            ></a>\n            <a\n              href="https://www.instagram.com/topeogunleye1/\n            "\n              class="fa fa-instagram"\n              target="_blank"\n            ></a>\n                </div>\n      </div>\n    </div>\n  </div>\n  <div class="background-right">\n    <div class="bg-right-container">\n      <p class="header">Hello</p>\n      <div class="bg-right-btn">\n      <a href="#resume" class="btn btn-blue resume">RESUME</a>\n      <a href="#projects" class="btn btn-white projects">PROJECTS</a>\n      </div>\n      <div class="dev-description">\n        <p class="first-p">\n          I\'m a Frontend developer with 2+ years experience in building\n          interactive web applications for web and mobile platforms. Track\n          record of maintaining a high bar for quality of code and working\n          aggressively to eliminate unnecessary duplication and unused\n          code.\n        </p>\n\n        <p class="second-p">\n          I\'ve also Lead part of a team that taught 750 secondary school\n          students how to code and practice Online Safety.\n        </p>\n      </div>\n    </div>\n  </div>\n</div>\n</div>\n    ',background.classList.add("background","faded-out"),requestAnimationFrame(()=>{background.classList.remove("faded-out")}));const abouts=document.querySelectorAll("#about");abouts.forEach(n=>{n.addEventListener("click",()=>{let n=document.createElement("div");const e=document.querySelector(".footer"),a=document.querySelector("body");document.body.insertBefore(n,e),n.classList.add("background"),e.classList.remove("reduce-margin"),function(n){n.remove()}(document.querySelector(".background")),a.insertBefore(n,e),""===n.innerHTML&&(n.innerHTML='\n                 <div class="about-me">\n        <div class="background-container">\n          <div class="background-left">\n            <div class="profile-container">\n            <div class="profile-image">\n            <img src="img/Profile.jpg" alt="profile image" />\n  \n            <p class="myname"><span>Temitope</span><span>Ogunleye</span></p>\n  \n            <div class="horizontal-line"></div>\n  \n            <p>Web Developer</p>\n  \n            <div class="profile-image-btn">\n              <a href="#resume" class="btn btn-blue resume" id="resume"\n                >RESUME</a\n              >\n              <a\n                href="#projects"\n                class="btn btn-white projects"\n                id="projects"\n                >PROJECTS</a\n              >\n            </div>\n                 <div class="social-media">\n                  <a\n              href="https://github.com/topeogunleye\n                "\n              class="fa fa-github"\n              target="_blank"\n            ></a>\n            <a\n              href="https://web.facebook.com/topeogunleye21\n            "\n              class="fa fa-facebook"\n              target="_blank"\n            ></a>\n            <a\n              href="https://twitter.com/temi_web\n            "\n              class="fa fa-twitter"\n              target="_blank"\n            ></a>\n            <a\n              href="https://www.linkedin.com/in/ogunleye\n            "\n              class="fa fa-linkedin"\n              target="_blank"\n            ></a>\n            <a\n              href="https://www.instagram.com/topeogunleye1/\n            "\n              class="fa fa-instagram"\n              target="_blank"\n            ></a>\n                </div>\n              </div>\n            </div>\n          </div>\n          <div class="background-right">\n            <div class="bg-right-container">\n              <p class="header">Hello</p>\n              <div class="bg-right-btn">\n              <a href="#resume" class="btn btn-blue resume">RESUME</a>\n              <a href="#projects" class="btn btn-white projects">PROJECTS</a>\n             </div>\n              <div class="dev-description">\n                <p class="first-p">\n                  I\'m a Frontend developer with 2+ years experience in building\n                  interactive web applications for web and mobile platforms. Track\n                  record of maintaining a high bar for quality of code and working\n                  aggressively to eliminate unnecessary duplication and unused\n                  code.\n                </p>\n    \n                <p class="second-p">\n                  I\'ve also Lead part of a team that taught 750 secondary school\n                  students how to code and practice Online Safety.\n                </p>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n            ',n.classList.add("background","faded-out"),requestAnimationFrame(()=>{n.classList.remove("faded-out")}))})});const projects=document.querySelectorAll(".projects");projects.forEach(n=>{n.addEventListener("click",()=>{let n=document.createElement("div");const e=document.querySelector(".footer"),a=document.querySelector("body");document.body.insertBefore(n,e),n.classList.add("background"),e.classList.add("reduce-margin"),e.classList.remove("reduce-width"),e.classList.remove("reduce-width-resume"),function(n){n.remove()}(document.querySelector(".background")),a.insertBefore(n,e),""===n.innerHTML&&(n.innerHTML='\n               <h2 class="projects"><div class="tinybox-resume"></div>Projects</h2>\n\n    <p>Check out some of my projects down below!</p>\n  <div id="projects">\n\n    <div class="project-container box">\n      <div class="project-text exp-left one">\n        <div class="project-headline">\n          <div class="bar"></div>\n          <div class="heading-container">\n            <h3>Intellectual App</h3>\n            <h3>Challenge</h3>\n          </div>\n          <div class="button">\n          <a href="https://intellectualapp.netlify.app/#" class="btn btn-blue" target="_blank">Check It Out!</a>\n        </div>\n        </div>\n\n        <h3 class="project-description">Description</h3>\n        <p>\n          A web page based on a png I was asked to recreate for a job\n          application. It is a Single Page Application built with pure\n          HTML/CSS and Vanilla JavaScript.\n        </p>\n\n        <h3 class="project-description">Technologies</h3>\n        <p>HTML, CSS, and JavaScript</p>\n      </div>\n      <div class="project-picture exp-right">\n        <img src="./img/project1.png" alt="project one" class="p-image"/>\n      </div>\n    </div>\n  </div>\n\n  <div id="projects">\n\n    <div class="project-container box">\n      <div class="project-text exp-left two">\n        <div class="project-headline">\n          <div class="bar"></div>\n          <div class="heading-container">\n            <h3>EdgeLedger </h3>\n            <h3>Website</h3>\n          </div>\n          <div class="button">\n          <a href="https://intellectualapp.netlify.app/#" class="btn btn-blue" target="_blank">Check It Out!</a>\n        </div>\n        </div>\n\n        <h3 class="project-description">Description</h3>\n        <p>\n          An edgeledger website I built following Brad Traversy\'s Modern HTML and CSS Course. This projects uses HTML, flexbox , and the latest technologies to achieve a responsive website.\n        </p>\n\n        <h3 class="project-description">Technologies</h3>\n        <p>HTML, CSS, and JavaScript</p>\n      </div>\n      <div class="project-picture exp-right edgeledger">\n        <img src="./img/project2.png" alt="project one" class="p-image"/>\n      </div>\n    </div>\n  </div>\n          ',n.classList.add("background","faded-out"),requestAnimationFrame(()=>{n.classList.remove("faded-out")}))})});const resumes=document.querySelectorAll(".resume");resumes.forEach(n=>{n.addEventListener("click",()=>{console.log(n);let e=document.createElement("div");const a=document.querySelector(".footer"),s=document.querySelector("body");document.body.insertBefore(e,a),e.classList.add("background"),a.classList.add("reduce-margin"),a.classList.add("reduce-width-resume"),a.classList.remove("reduce-width"),function(n){n.remove()}(document.querySelector(".background")),s.insertBefore(e,a),""===e.innerHTML&&(e.innerHTML='\n<h1><div class="tinybox-resume"></div>Resume</h1>\n    <div class="header-container">\n      <h2>Experience</h2>\n      <a href="./cv/mycv.pdf" class="btn btn-blue download" target="_blank">DOWNLOAD CV</a>\n    </div>\n\n    \x3c!-- Experience Section --\x3e\n    <div class="experience box resume">\n      <div class="exp-left resume">\n        <p class="date">Oct 2019 – Dec 2019</p>\n\n        <h3>LEARNING LEAD</h3>\n        <p class="company">Junior Achievement Nigeria</p>\n\n        <p>Abuja, Nigeria</p>\n      </div>\n\n      <div class="exp-right">\n        <p>\n          <span class="first-paragraph"\n            >My role is to teach 95 secondary school students how to code\n            using Google CS First and Scratch Programming Language.</span\n          >\n          <span\n            >I was also in charge of handling student\'s materials, projects,\n            and monitoring the student\'s progress.</span\n          >\n        </p>\n\n        <p></p>\n      </div>\n    </div>\n\n    <div class="experience box resume">\n      <div class="exp-left resume">\n        <p class="date">Oct 2019 – Dec 2019</p>\n\n        <h3>LEARNING LEAD</h3>\n        <p class="company">TechQuest STEM Academy</p>\n\n        <p>Lagos,Nigeria</p>\n      </div>\n\n      <div class="exp-right">\n        <p>\n          <span class="first-paragraph"\n            >My role is to Lead part of a team that taught 750 secondary\n            school students how to code and practice Online Safety Using\n            Google CS First Curriculum and Resources.</span\n          >\n          <span\n            >I was also in charge of handling student\'s projects and\n            monitoring student\'s progress.</span\n          >\n        </p>\n\n        <p></p>\n      </div>\n    </div>\n\n    <div class="header-container">\n      <h2 class="edu-head">Education</h2>\n    </div>\n    <div class="education box resume">\n      <div class="exp-left resume">\n        <p class="date first-edu">2014 - 2017</p>\n\n        <h3>UNIVERSITY OF LAGOS</h3>\n        <p class="company">Bachelor of Science, Economics</p>\n\n        <p>Lagos,Nigeria</p>\n      </div>\n\n      <div class="exp-right">\n        <p>\n          I learnt about microeconomics, macroeconmics, including the various\n          theories of econmics from keynesian to maxian, e.t.c. I choose to go\n          into web development because I found economics to be boring\n        </p>\n\n        <p></p>\n      </div>\n    </div>\n\n    <div class="education box resume">\n      <div class="exp-left resume">\n        <p class="date">OCT 2020 - DEC 2020</p>\n\n        <h3>UDEMY</h3>\n        <p class="company">Advanced CSS ans Sass</p>\n\n        <p>Online</p>\n      </div>\n\n      <div class="exp-right">\n        <p>\n          I learned advanced CSS concepts e.g Flexbox,CSS grid, CSS\n          Animations. I learned what goes on in the background like how rems\n          are converted to pixels e.t.c.\n        </p>\n\n        <p></p>\n      </div>\n    </div>\n\n    \x3c!-- Skills/ Languagues Section --\x3e\n\n    <div class="industry-skills box resume">\n      <div class="top box resume">\n      <h2>Industry Expertise</h2>\n\n      <div class="industry-expertise">\n        <prog-list class="industryexpertise">\n          <ul>\n            <li>\n              <a href="#"\n                ><div class="tinybox"></div>\n                Responsive Web Design</a\n              >\n            </li>\n            <li>\n              <a href="#"\n                ><div class="tinybox"></div>\n                Single Page App Development</a\n              >\n            </li>\n            <li>\n              <a href="#"\n                ><div class="tinybox"></div>\n                Version Control</a\n              >\n            </li>\n            <li>\n              <a href="#"\n                ><div class="tinybox"></div>\n                Accessibility</a\n              >\n            </li>\n            <li>\n              <a href="#"\n                ><div class="tinybox"></div>\n                User Interface Design</a\n              >\n            </li>\n            <li>\n              <a href="#"\n                ><div class="tinybox"></div>\n                Web Templating</a\n              >\n            </li>\n            <li>\n            <a href="#"\n              ><div class="tinybox"></div>\n              HTML/CSS</a\n            >\n          </li>\n          <li>\n          <a href="#"\n            ><div class="tinybox"></div>\n            JavaScript</a\n          >\n        </li>\n        <li>\n        <a href="#"\n          ><div class="tinybox"></div>\n          SASS</a\n        >\n      </li>\n          </ul>\n\n        </prog-list>\n      </div>\n    \n      </div>\n    </div>\n    </div>\n          ',e.classList.add("background","faded-out"),requestAnimationFrame(()=>{e.classList.remove("faded-out")}))})});const contacts=document.querySelectorAll("#contact");contacts.forEach(n=>{n.addEventListener("click",()=>{let n=document.createElement("div");const e=document.querySelector(".footer"),a=document.querySelector("body");document.body.insertBefore(n,e),n.classList.add("background"),e.classList.add("reduce-margin"),e.classList.remove("reduce-width"),e.classList.remove("reduce-width-resume"),function(n){n.remove()}(document.querySelector(".background")),a.insertBefore(n,e),""===n.innerHTML&&(n.innerHTML='\n                                 <h2 class="contact">\n      <div class="tinybox-resume"></div>\n      Contact Me\n    </h2>\n  \n    \x3c!-- Contact Section --\x3e\n      <form class="form-style-9">\n        <ul>\n        <li>\n            <input type="text" name="field1" class="field-style field-split align-left" placeholder="Name" />\n            <input type="email" name="field2" class="field-style field-split align-right" placeholder="Email" />\n        \n        </li>\n        <li>\n            <input type="text" name="field3" class="field-style field-split align-left" placeholder="Phone" />\n            <input type="url" name="field4" class="field-style field-split align-right" placeholder="Website" />\n        </li>\n        <li>\n        <input type="text" name="field3" class="field-style field-full align-none" placeholder="Subject" />\n        </li>\n        <li>\n        <textarea name="field5" class="field-style" placeholder="Message"></textarea>\n        </li>\n        <li>\n        \x3c!-- <input class="btn btn-blue download"type="submit" value="Send Message" /> --\x3e\n        <a href="" class="btn btn-blue download">Send Message</a>\n        </li>\n        </ul>\n        </form>\n            ',n.classList.add("background","faded-out"),requestAnimationFrame(()=>{n.classList.remove("faded-out")}))})});var navbar=document.querySelector(".navbar"),ham=document.querySelector(".ham");function toggleHamburger(){navbar.classList.toggle("showNav"),ham.classList.toggle("showClose")}ham.addEventListener("click",toggleHamburger);var menuLinks=document.querySelectorAll(".menuLink");menuLinks.forEach(function(n){n.addEventListener("click",toggleHamburger)});
+// Clear background;
+function clearBackground() {
+  document.querySelector(".background").innerHTML = ``;
+}
+
+// Initial About ME
+// Create Background div
+let background = document.createElement("div");
+
+const footer = document.querySelector(".footer");
+
+const body = document.querySelector("body");
+// add it to the DOM
+document.body.insertBefore(background, footer);
+
+// add background classes
+background.classList.add("background");
+
+// remove footer classes
+footer.classList.remove("reduce-margin");
+
+let backgroundRemove = document.querySelector(".background");
+
+// Clear background
+clearBackground(backgroundRemove);
+function clearBackground(background) {
+  background.remove();
+}
+
+body.insertBefore(background, footer);
+
+if (background.innerHTML === "") {
+  background.innerHTML = `
+         <div class="about-me">
+<div class="background-container">
+  <div class="background-left">
+    <div class="profile-container">
+    <div class="profile-image">
+    <img src="img/Profile.jpg" alt="profile image" />
+
+    <p class="myname"><span>Temitope</span><span>Ogunleye</span></p>
+
+    <div class="horizontal-line"></div>
+
+    <p>Web Developer</p>
+
+    <div class="profile-image-btn">
+      <a href="#resume" class="btn btn-blue resume"
+        >RESUME</a
+      >
+      <a
+        href="#projects"
+        class="btn btn-white projects"
+        >PROJECTS</a
+      >
+    </div>
+        <div class="social-media">
+                  <a
+              href="https://github.com/topeogunleye
+                "
+              class="fa fa-github"
+              target="_blank"
+            ></a>
+            <a
+              href="https://web.facebook.com/topeogunleye21
+            "
+              class="fa fa-facebook"
+              target="_blank"
+            ></a>
+            <a
+              href="https://twitter.com/temi_web
+            "
+              class="fa fa-twitter"
+              target="_blank"
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/ogunleye
+            "
+              class="fa fa-linkedin"
+              target="_blank"
+            ></a>
+            <a
+              href="https://www.instagram.com/topeogunleye1/
+            "
+              class="fa fa-instagram"
+              target="_blank"
+            ></a>
+                </div>
+      </div>
+    </div>
+  </div>
+  <div class="background-right">
+    <div class="bg-right-container">
+      <p class="header">Hello</p>
+      <div class="bg-right-btn">
+      <a href="#resume" class="btn btn-blue resume">RESUME</a>
+      <a href="#projects" class="btn btn-white projects">PROJECTS</a>
+      </div>
+      <div class="dev-description">
+        <p class="first-p">
+          I'm a Frontend developer with 2+ years experience in building
+          interactive web applications for web and mobile platforms. Track
+          record of maintaining a high bar for quality of code and working
+          aggressively to eliminate unnecessary duplication and unused
+          code.
+        </p>
+
+        <p class="second-p">
+          I've also Lead part of a team that taught 750 secondary school
+          students how to code and practice Online Safety.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    `;
+
+  // add two css classes
+  background.classList.add("background", "faded-out");
+
+  // and remove 'faded-out' in order to fade-in our element
+  requestAnimationFrame(() => {
+    background.classList.remove("faded-out");
+  });
+}
+
+// About Me
+// Event Listener for About Me
+const abouts = document.querySelectorAll("#about");
+abouts.forEach((about) => {
+  about.addEventListener("click", () => {
+    // Create Background div
+    let background = document.createElement("div");
+
+    const footer = document.querySelector(".footer");
+
+    const body = document.querySelector("body");
+    // add it to the DOM
+    document.body.insertBefore(background, footer);
+
+    // add background classes
+    background.classList.add("background");
+    // remove footer classes
+    footer.classList.remove("reduce-margin");
+
+    let backgroundRemove = document.querySelector(".background");
+
+    // Clear background
+    clearBackground(backgroundRemove);
+    function clearBackground(background) {
+      background.remove();
+    }
+
+    body.insertBefore(background, footer);
+
+    if (background.innerHTML === "") {
+      background.innerHTML = `
+                 <div class="about-me">
+        <div class="background-container">
+          <div class="background-left">
+            <div class="profile-container">
+            <div class="profile-image">
+            <img src="img/Profile.jpg" alt="profile image" />
+  
+            <p class="myname"><span>Temitope</span><span>Ogunleye</span></p>
+  
+            <div class="horizontal-line"></div>
+  
+            <p>Web Developer</p>
+  
+            <div class="profile-image-btn">
+              <a href="#resume" class="btn btn-blue resume" id="resume"
+                >RESUME</a
+              >
+              <a
+                href="#projects"
+                class="btn btn-white projects"
+                id="projects"
+                >PROJECTS</a
+              >
+            </div>
+                 <div class="social-media">
+                  <a
+              href="https://github.com/topeogunleye
+                "
+              class="fa fa-github"
+              target="_blank"
+            ></a>
+            <a
+              href="https://web.facebook.com/topeogunleye21
+            "
+              class="fa fa-facebook"
+              target="_blank"
+            ></a>
+            <a
+              href="https://twitter.com/temi_web
+            "
+              class="fa fa-twitter"
+              target="_blank"
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/ogunleye
+            "
+              class="fa fa-linkedin"
+              target="_blank"
+            ></a>
+            <a
+              href="https://www.instagram.com/topeogunleye1/
+            "
+              class="fa fa-instagram"
+              target="_blank"
+            ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="background-right">
+            <div class="bg-right-container">
+              <p class="header">Hello</p>
+              <div class="bg-right-btn">
+              <a href="#resume" class="btn btn-blue resume">RESUME</a>
+              <a href="#projects" class="btn btn-white projects">PROJECTS</a>
+             </div>
+              <div class="dev-description">
+                <p class="first-p">
+                  I'm a Frontend developer with 2+ years experience in building
+                  interactive web applications for web and mobile platforms. Track
+                  record of maintaining a high bar for quality of code and working
+                  aggressively to eliminate unnecessary duplication and unused
+                  code.
+                </p>
+    
+                <p class="second-p">
+                  I've also Lead part of a team that taught 750 secondary school
+                  students how to code and practice Online Safety.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+            `;
+
+      // add two css classes
+      background.classList.add("background", "faded-out");
+
+      // and remove 'faded-out' in order to fade-in our element
+      requestAnimationFrame(() => {
+        background.classList.remove("faded-out");
+      });
+    }
+  });
+});
+
+// Projects
+// Event listeners for Projects
+const projects = document.querySelectorAll(".projects");
+
+projects.forEach((project) => {
+  project.addEventListener("click", () => {
+    // Create Background div
+    let background = document.createElement("div");
+
+    const footer = document.querySelector(".footer");
+
+    const body = document.querySelector("body");
+    // add it to the DOM
+    document.body.insertBefore(background, footer);
+
+    // add background classes
+    background.classList.add("background");
+
+    // add/remove footer classes
+    footer.classList.add("reduce-margin");
+    footer.classList.remove("reduce-width");
+    footer.classList.remove("reduce-width-resume");
+
+    let backgroundRemove = document.querySelector(".background");
+
+    // Clear background
+    clearBackground(backgroundRemove);
+    function clearBackground(background) {
+      background.remove();
+    }
+
+    body.insertBefore(background, footer);
+
+    if (background.innerHTML === "") {
+      background.innerHTML = `
+               <h2 class="projects"><div class="tinybox-resume"></div>Projects</h2>
+
+    <p>Check out some of my projects down below!</p>
+  <div id="projects">
+
+    <div class="project-container box">
+      <div class="project-text exp-left one">
+        <div class="project-headline">
+          <div class="bar"></div>
+          <div class="heading-container">
+            <h3>Intellectual App</h3>
+            <h3>Challenge</h3>
+          </div>
+          <div class="button">
+          <a href="https://intellectualapp.netlify.app/#" class="btn btn-blue" target="_blank">Check It Out!</a>
+        </div>
+        </div>
+
+        <h3 class="project-description">Description</h3>
+        <p>
+          A web page based on a png I was asked to recreate for a job
+          application. It is a Single Page Application built with pure
+          HTML/CSS and Vanilla JavaScript.
+        </p>
+
+        <h3 class="project-description">Technologies</h3>
+        <p>HTML, CSS, and JavaScript</p>
+      </div>
+      <div class="project-picture exp-right">
+        <img src="./img/project1.png" alt="project one" class="p-image"/>
+      </div>
+    </div>
+  </div>
+
+  <div id="projects">
+
+    <div class="project-container box">
+      <div class="project-text exp-left two">
+        <div class="project-headline">
+          <div class="bar"></div>
+          <div class="heading-container">
+            <h3>EdgeLedger </h3>
+            <h3>Website</h3>
+          </div>
+          <div class="button">
+          <a href="https://intellectualapp.netlify.app/#" class="btn btn-blue" target="_blank">Check It Out!</a>
+        </div>
+        </div>
+
+        <h3 class="project-description">Description</h3>
+        <p>
+          An edgeledger website I built following Brad Traversy's Modern HTML and CSS Course. This projects uses HTML, flexbox , and the latest technologies to achieve a responsive website.
+        </p>
+
+        <h3 class="project-description">Technologies</h3>
+        <p>HTML, CSS, and JavaScript</p>
+      </div>
+      <div class="project-picture exp-right edgeledger">
+        <img src="./img/project2.png" alt="project one" class="p-image"/>
+      </div>
+    </div>
+  </div>
+          `;
+
+      // add two css classes
+      background.classList.add("background", "faded-out");
+
+      // and remove 'faded-out' in order to fade-in our element
+      requestAnimationFrame(() => {
+        background.classList.remove("faded-out");
+      });
+    }
+  });
+});
+
+// Resume
+// Event listener for Resume
+const resumes = document.querySelectorAll(".resume");
+
+resumes.forEach((resume) => {
+  resume.addEventListener("click", () => {
+    console.log(resume)
+    // Create Background div
+    let background = document.createElement("div");
+
+    const footer = document.querySelector(".footer");
+
+    const body = document.querySelector("body");
+    // add it to the DOM
+    document.body.insertBefore(background, footer);
+
+    // add background classes
+    background.classList.add("background");
+
+    // add/remove footer classes
+    footer.classList.add("reduce-margin");
+    footer.classList.add("reduce-width-resume");
+    footer.classList.remove("reduce-width");
+
+    let backgroundRemove = document.querySelector(".background");
+
+    // Clear background
+    clearBackground(backgroundRemove);
+    function clearBackground(background) {
+      background.remove();
+    }
+
+    body.insertBefore(background, footer);
+
+    if (background.innerHTML === "") {
+      background.innerHTML = `
+<h1><div class="tinybox-resume"></div>Resume</h1>
+    <div class="header-container">
+      <h2>Experience</h2>
+      <a href="./cv/mycv.pdf" class="btn btn-blue download" target="_blank">DOWNLOAD CV</a>
+    </div>
+
+    <!-- Experience Section -->
+    <div class="experience box resume">
+      <div class="exp-left resume">
+        <p class="date">Oct 2019 – Dec 2019</p>
+
+        <h3>LEARNING LEAD</h3>
+        <p class="company">Junior Achievement Nigeria</p>
+
+        <p>Abuja, Nigeria</p>
+      </div>
+
+      <div class="exp-right">
+        <p>
+          <span class="first-paragraph"
+            >My role is to teach 95 secondary school students how to code
+            using Google CS First and Scratch Programming Language.</span
+          >
+          <span
+            >I was also in charge of handling student's materials, projects,
+            and monitoring the student's progress.</span
+          >
+        </p>
+
+        <p></p>
+      </div>
+    </div>
+
+    <div class="experience box resume">
+      <div class="exp-left resume">
+        <p class="date">Oct 2019 – Dec 2019</p>
+
+        <h3>LEARNING LEAD</h3>
+        <p class="company">TechQuest STEM Academy</p>
+
+        <p>Lagos,Nigeria</p>
+      </div>
+
+      <div class="exp-right">
+        <p>
+          <span class="first-paragraph"
+            >My role is to Lead part of a team that taught 750 secondary
+            school students how to code and practice Online Safety Using
+            Google CS First Curriculum and Resources.</span
+          >
+          <span
+            >I was also in charge of handling student's projects and
+            monitoring student's progress.</span
+          >
+        </p>
+
+        <p></p>
+      </div>
+    </div>
+
+    <div class="header-container">
+      <h2 class="edu-head">Education</h2>
+    </div>
+    <div class="education box resume">
+      <div class="exp-left resume">
+        <p class="date first-edu">2014 - 2017</p>
+
+        <h3>UNIVERSITY OF LAGOS</h3>
+        <p class="company">Bachelor of Science, Economics</p>
+
+        <p>Lagos,Nigeria</p>
+      </div>
+
+      <div class="exp-right">
+        <p>
+          I learnt about microeconomics, macroeconmics, including the various
+          theories of econmics from keynesian to maxian, e.t.c. I choose to go
+          into web development because I found economics to be boring
+        </p>
+
+        <p></p>
+      </div>
+    </div>
+
+    <div class="education box resume">
+      <div class="exp-left resume">
+        <p class="date">OCT 2020 - DEC 2020</p>
+
+        <h3>UDEMY</h3>
+        <p class="company">Advanced CSS ans Sass</p>
+
+        <p>Online</p>
+      </div>
+
+      <div class="exp-right">
+        <p>
+          I learned advanced CSS concepts e.g Flexbox,CSS grid, CSS
+          Animations. I learned what goes on in the background like how rems
+          are converted to pixels e.t.c.
+        </p>
+
+        <p></p>
+      </div>
+    </div>
+
+    <!-- Skills/ Languagues Section -->
+
+    <div class="industry-skills box resume">
+      <div class="top box resume">
+      <h2>Industry Expertise</h2>
+
+      <div class="industry-expertise">
+        <prog-list class="industryexpertise">
+          <ul>
+            <li>
+              <a href="#"
+                ><div class="tinybox"></div>
+                Responsive Web Design</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><div class="tinybox"></div>
+                Single Page App Development</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><div class="tinybox"></div>
+                Version Control</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><div class="tinybox"></div>
+                Accessibility</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><div class="tinybox"></div>
+                User Interface Design</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><div class="tinybox"></div>
+                Web Templating</a
+              >
+            </li>
+            <li>
+            <a href="#"
+              ><div class="tinybox"></div>
+              HTML/CSS</a
+            >
+          </li>
+          <li>
+          <a href="#"
+            ><div class="tinybox"></div>
+            JavaScript</a
+          >
+        </li>
+        <li>
+        <a href="#"
+          ><div class="tinybox"></div>
+          SASS</a
+        >
+      </li>
+          </ul>
+
+        </prog-list>
+      </div>
+    
+      </div>
+    </div>
+    </div>
+          `;
+
+      // add two css classes
+      background.classList.add("background", "faded-out");
+
+      // and remove 'faded-out' in order to fade-in our element
+      requestAnimationFrame(() => {
+        background.classList.remove("faded-out");
+      });
+    }
+  });
+});
+
+// Contacts
+// Event Listeners for contacts
+const contacts = document.querySelectorAll("#contact");
+contacts.forEach((contact) => {
+  contact.addEventListener("click", () => {
+    // Create Background div
+    let background = document.createElement("div");
+
+    const footer = document.querySelector(".footer");
+
+    const body = document.querySelector("body");
+    // add it to the DOM
+    document.body.insertBefore(background, footer);
+
+    // add background classes
+    background.classList.add("background");
+
+    // add/remove footer classes
+    footer.classList.add("reduce-margin");
+    footer.classList.remove("reduce-width");
+    footer.classList.remove("reduce-width-resume");
+
+    let backgroundRemove = document.querySelector(".background");
+
+    // Clear background
+    clearBackground(backgroundRemove);
+    function clearBackground(background) {
+      background.remove();
+    }
+
+    body.insertBefore(background, footer);
+
+    if (background.innerHTML === "") {
+      background.innerHTML = `
+                                 <h2 class="contact">
+      <div class="tinybox-resume"></div>
+      Contact Me
+    </h2>
+  
+    <!-- Contact Section -->
+      <form class="form-style-9">
+        <ul>
+        <li>
+            <input type="text" name="field1" class="field-style field-split align-left" placeholder="Name" />
+            <input type="email" name="field2" class="field-style field-split align-right" placeholder="Email" />
+        
+        </li>
+        <li>
+            <input type="text" name="field3" class="field-style field-split align-left" placeholder="Phone" />
+            <input type="url" name="field4" class="field-style field-split align-right" placeholder="Website" />
+        </li>
+        <li>
+        <input type="text" name="field3" class="field-style field-full align-none" placeholder="Subject" />
+        </li>
+        <li>
+        <textarea name="field5" class="field-style" placeholder="Message"></textarea>
+        </li>
+        <li>
+        <!-- <input class="btn btn-blue download"type="submit" value="Send Message" /> -->
+        <a href="" class="btn btn-blue download">Send Message</a>
+        </li>
+        </ul>
+        </form>
+            `;
+
+      // add two css classes
+      background.classList.add("background", "faded-out");
+
+      // and remove 'faded-out' in order to fade-in our element
+      requestAnimationFrame(() => {
+        background.classList.remove("faded-out");
+      });
+    }
+  });
+});
+
+var navbar = document.querySelector(".navbar");
+var ham = document.querySelector(".ham");
+
+// toggles hamburger menu in and out when clicking on the hamburger
+function toggleHamburger() {
+  navbar.classList.toggle("showNav");
+  ham.classList.toggle("showClose");
+}
+
+ham.addEventListener("click", toggleHamburger);
+
+// toggle when clicking on links
+
+// METHOD 1
+var menuLinks = document.querySelectorAll(".menuLink");
+menuLinks.forEach(function (menuLink) {
+  menuLink.addEventListener("click", toggleHamburger);
+});
+
+// METHOD 2
+
+// used event delegation to not have to add a listener to every link
+// learnt event delegation from @coderarchive
+// https://dev.to/coderarchive/event-delegation-in-js-1aff
+// comment METHOD 1 & uncomment the following to try METHOD 2
+
+/*
+
+function checkToggle(e){
+  var itemClicked = e.target
+  if (itemClicked.classList.contains("menuLink")) {
+    toggleHamburger()
+  }
+}
+
+navbar.addEventListener("click", checkToggle)
+
+*/
