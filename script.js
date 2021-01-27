@@ -105,7 +105,7 @@ if (background.innerHTML === "") {
           code.
         </p>
 
-        <p>
+        <p class="second-p">
           I've also Lead part of a team that taught 750 secondary school
           students how to code and practice Online Safety.
         </p>
@@ -231,7 +231,7 @@ abouts.forEach((about) => {
                   code.
                 </p>
     
-                <p>
+                <p class="second-p">
                   I've also Lead part of a team that taught 750 secondary school
                   students how to code and practice Online Safety.
                 </p>
