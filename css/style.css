@@ -214,8 +214,8 @@ button {
   font-weight: 700;
 }
 
-.btn-white {
-  background-color: #999999;
+.btn-brown {
+  background-color: #deb887;
   color: #333;
   font-weight: 700;
   /* border: 1px solid #333; */
@@ -238,8 +238,8 @@ button {
   background-color: #0050ff;
 }
 
-.btn-white::after {
-  background-color: #fff;
+.btn-brown::after {
+  background-color: #deb887;
 }
 
 .btn:hover::after {

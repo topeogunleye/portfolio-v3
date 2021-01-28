@@ -50,7 +50,7 @@ if (background.innerHTML === "") {
       >
       <a
         href="#projects"
-        class="btn btn-white projects"
+        class="btn btn-brown projects"
         >PROJECTS</a
       >
     </div>
@@ -94,7 +94,7 @@ if (background.innerHTML === "") {
       <p class="header">Hello</p>
       <div class="bg-right-btn">
       <a href="#resume" class="btn btn-blue resume">RESUME</a>
-      <a href="#projects" class="btn btn-white projects">PROJECTS</a>
+      <a href="#projects" class="btn btn-brown projects">PROJECTS</a>
       </div>
       <div class="dev-description">
         <p class="first-p">
@@ -175,7 +175,7 @@ abouts.forEach((about) => {
               >
               <a
                 href="#projects"
-                class="btn btn-white projects"
+                class="btn btn-brown projects"
                 id="projects"
                 >PROJECTS</a
               >
@@ -220,7 +220,7 @@ abouts.forEach((about) => {
               <p class="header">Hello</p>
               <div class="bg-right-btn">
               <a href="#resume" class="btn btn-blue resume">RESUME</a>
-              <a href="#projects" class="btn btn-white projects">PROJECTS</a>
+              <a href="#projects" class="btn btn-brown projects">PROJECTS</a>
              </div>
               <div class="dev-description">
                 <p class="first-p">
