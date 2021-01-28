@@ -138,7 +138,7 @@ body {
 }
 
 .btn.btn-blue.resume,
-.btn.btn-white.projects {
+.btn.btn-brown.projects {
   transform: translateY(-60px) translateX(12px);
   display: inline-block;
 }
