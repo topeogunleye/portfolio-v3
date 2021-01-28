@@ -60,14 +60,6 @@ button {
   opacity: 0;
 }
 
-.tinybox {
-  width: 15px;
-  height: 15px;
-  background: #0050ff;
-  display: inline-block;
-  margin-right: 20px;
-}
-
 .background {
   transition: all;
   will-change: all;
@@ -415,8 +407,8 @@ prog-list ul li a {
 
 /* Utility Classes */
 .tinybox {
-  width: 13px;
-  height: 13px;
+  width: 15px;
+  height: 15px;
   background: #0050ff;
   display: inline-block;
   margin-right: 20px;
