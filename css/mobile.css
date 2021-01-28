@@ -311,6 +311,10 @@ h2.contact {
   align-items: center;
 }
 
+.form-style-9 {
+  width: 90%;
+}
+
 /* Resume */
 .exp-left.resume {
   margin-left: 20px;

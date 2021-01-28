@@ -552,7 +552,7 @@ h2.contact {
 }
 
 .form-style-9 {
-  width: fit-content;
+  width: 40%;
   height: auto;
   background: #fafafa;
   background: #ffffff;
@@ -618,6 +618,10 @@ h2.contact {
 .form-style-9 ul li textarea {
   width: 100%;
   height: 100px;
+}
+.form-style-9 .center {
+  display: grid;
+  place-items: center;
 }
 
 /* Animation */
