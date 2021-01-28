@@ -47,10 +47,10 @@ button {
   transition: all 0.4s ease;
   font-size: 90%;
 }
-/* 
-#navbar ul li a:active {
+
+#navbar ul li a:focus {
   color: #0050ff;
-} */
+}
 
 .right-sidebar ul li a {
   text-decoration: none;

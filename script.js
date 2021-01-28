@@ -125,133 +125,6 @@ if (background.innerHTML === "") {
   });
 }
 
-// About Me
-// Event Listener for About Me
-const abouts = document.querySelectorAll("#about");
-abouts.forEach((about) => {
-  about.addEventListener("click", () => {
-    // Create Background div
-    let background = document.createElement("div");
-
-    const footer = document.querySelector(".footer");
-
-    const body = document.querySelector("body");
-    // add it to the DOM
-    document.body.insertBefore(background, footer);
-
-    // add background classes
-    background.classList.add("background");
-    // remove footer classes
-    footer.classList.remove("reduce-margin");
-
-    let backgroundRemove = document.querySelector(".background");
-
-    // Clear background
-    clearBackground(backgroundRemove);
-    function clearBackground(background) {
-      background.remove();
-    }
-
-    body.insertBefore(background, footer);
-
-    if (background.innerHTML === "") {
-      background.innerHTML = `
-                 <div class="about-me">
-        <div class="background-container">
-          <div class="background-left">
-            <div class="profile-container">
-            <div class="profile-image">
-            <img src="img/Profile.jpg" alt="profile image" />
-  
-            <p class="myname"><span>Temitope</span><span>Ogunleye</span></p>
-  
-            <div class="horizontal-line"></div>
-  
-            <p>Web Developer</p>
-  
-            <div class="profile-image-btn">
-              <a href="#resume" class="btn btn-blue resume" id="resume"
-                >RESUME</a
-              >
-              <a
-                href="#projects"
-                class="btn btn-brown projects"
-                id="projects"
-                >PROJECTS</a
-              >
-            </div>
-                 <div class="social-media">
-                  <a
-              href="https://github.com/topeogunleye
-                "
-              class="fa fa-github"
-              target="_blank"
-            ></a>
-            <a
-              href="https://web.facebook.com/topeogunleye21
-            "
-              class="fa fa-facebook"
-              target="_blank"
-            ></a>
-            <a
-              href="https://twitter.com/temi_web
-            "
-              class="fa fa-twitter"
-              target="_blank"
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/ogunleye
-            "
-              class="fa fa-linkedin"
-              target="_blank"
-            ></a>
-            <a
-              href="https://www.instagram.com/topeogunleye1/
-            "
-              class="fa fa-instagram"
-              target="_blank"
-            ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="background-right">
-            <div class="bg-right-container">
-              <p class="header">Hello</p>
-              <div class="bg-right-btn">
-              <a href="#resume" class="btn btn-blue resume">RESUME</a>
-              <a href="#projects" class="btn btn-brown projects">PROJECTS</a>
-             </div>
-              <div class="dev-description">
-                <p class="first-p">
-                  I'm a Frontend developer with 2+ years experience in building
-                  interactive web applications for web and mobile platforms. Track
-                  record of maintaining a high bar for quality of code and working
-                  aggressively to eliminate unnecessary duplication and unused
-                  code.
-                </p>
-    
-                <p class="second-p">
-                  I've also Lead part of a team that taught 750 secondary school
-                  students how to code and practice Online Safety.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-            `;
-
-      // add two css classes
-      background.classList.add("background", "faded-out");
-
-      // and remove 'faded-out' in order to fade-in our element
-      requestAnimationFrame(() => {
-        background.classList.remove("faded-out");
-      });
-    }
-  });
-});
 
 // Projects
 // Event listeners for Projects
@@ -259,6 +132,14 @@ const projects = document.querySelectorAll(".projects");
 
 projects.forEach((project) => {
   project.addEventListener("click", () => {
+    const abouts = document.querySelector("#about");
+    const contacts = document.querySelector("#contact");
+    const resumes = document.querySelector(".resume"); 
+
+    project.style.color = "blue";
+    resumes.style.color = "#333333";
+    contacts.style.color = "#333333";
+    abouts.style.color = "#333333"
     // Create Background div
     let background = document.createElement("div");
 
@@ -369,6 +250,14 @@ const resumes = document.querySelectorAll(".resume");
 
 resumes.forEach((resume) => {
   resume.addEventListener("click", () => {
+    const projects = document.querySelector(".projects");
+    const contacts = document.querySelector("#contact");
+    const abouts = document.querySelector("#about"); 
+  
+    resume.style.color = "blue";
+    abouts.style.color = "#333333"
+    projects.style.color = "#333333";
+    contacts.style.color = "#333333";
     console.log(resume)
     // Create Background div
     let background = document.createElement("div");
@@ -593,6 +482,14 @@ resumes.forEach((resume) => {
 const contacts = document.querySelectorAll("#contact");
 contacts.forEach((contact) => {
   contact.addEventListener("click", () => {
+    const projects = document.querySelector(".projects");
+    const resumes = document.querySelector(".resume");
+    const abouts = document.querySelector("#about"); 
+  
+    contact.style.color = "blue";
+    abouts.style.color = "#333333"
+    projects.style.color = "#333333";
+    resumes.style.color = "#333333";
     // Create Background div
     let background = document.createElement("div");
 
