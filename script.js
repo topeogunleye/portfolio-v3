@@ -125,7 +125,6 @@ if (background.innerHTML === "") {
   });
 }
 
-
 // Projects
 // Event listeners for Projects
 const projects = document.querySelectorAll(".projects");
@@ -134,12 +133,12 @@ projects.forEach((project) => {
   project.addEventListener("click", () => {
     const abouts = document.querySelector("#about");
     const contacts = document.querySelector("#contact");
-    const resumes = document.querySelector(".resume"); 
+    const resumes = document.querySelector(".resume");
 
     project.style.color = "blue";
     resumes.style.color = "#333333";
     contacts.style.color = "#333333";
-    abouts.style.color = "#333333"
+    abouts.style.color = "#333333";
     // Create Background div
     let background = document.createElement("div");
 
@@ -231,6 +230,7 @@ projects.forEach((project) => {
       </div>
     </div>
   </div>
+  <script src="script.js"></script>
           `;
 
       // add two css classes
@@ -252,13 +252,13 @@ resumes.forEach((resume) => {
   resume.addEventListener("click", () => {
     const projects = document.querySelector(".projects");
     const contacts = document.querySelector("#contact");
-    const abouts = document.querySelector("#about"); 
-  
+    const abouts = document.querySelector("#about");
+
     resume.style.color = "blue";
-    abouts.style.color = "#333333"
+    abouts.style.color = "#333333";
     projects.style.color = "#333333";
     contacts.style.color = "#333333";
-    console.log(resume)
+    console.log(resume);
     // Create Background div
     let background = document.createElement("div");
 
@@ -464,6 +464,7 @@ resumes.forEach((resume) => {
       </div>
     </div>
     </div>
+    <script src="script.js"></script>
           `;
 
       // add two css classes
@@ -484,10 +485,10 @@ contacts.forEach((contact) => {
   contact.addEventListener("click", () => {
     const projects = document.querySelector(".projects");
     const resumes = document.querySelector(".resume");
-    const abouts = document.querySelector("#about"); 
-  
+    const abouts = document.querySelector("#about");
+
     contact.style.color = "blue";
-    abouts.style.color = "#333333"
+    abouts.style.color = "#333333";
     projects.style.color = "#333333";
     resumes.style.color = "#333333";
     // Create Background div
@@ -547,6 +548,7 @@ contacts.forEach((contact) => {
         </li>
         </ul>
         </form>
+        <script src="script.js"></script>
             `;
 
       // add two css classes
