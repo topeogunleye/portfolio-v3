@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;700&display=swap");
 
+:root {
+  --shd: -11.31px 11.31px 25px 0px rgba(138,131,124,0.23);
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -335,6 +338,7 @@ a.btn.btn-blue.download {
   display: flex;
   justify-content: space-between;
   position: relative;
+  box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
 }
 
 .exp-left {
@@ -552,6 +556,7 @@ h2.contact {
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 200px;
+  box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
   /* box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
 	border-radius: 10px; */
   /* border: 6px solid #305A72; */
